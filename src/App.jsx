@@ -35,7 +35,7 @@ export default function App() {
           </div>
           <div>
             <h3 className="text-xl font-bold">Cloud Strategy</h3>
-            <p>AWS/GCP/Azure, Kubernetes, scaling</p>
+            <p>AWS/GCP/Azure, Kubernetes, scaling, observability</p>
           </div>
         </div>
       </section>
