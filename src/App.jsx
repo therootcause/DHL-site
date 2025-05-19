@@ -22,7 +22,7 @@ export default function App() {
         </div>
       </header>
 
-      <section className="bg-black/70 py-16 px-4">
+      <section className="bg-black/70 py-8 px-4">
         <h2 className="text-3xl font-semibold text-center mb-12">What We Do</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div>
