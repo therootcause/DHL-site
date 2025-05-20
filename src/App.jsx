@@ -22,7 +22,7 @@ export default function App() {
           <img src="/dhllogo.png" width="300" height="300" alt="Dragon Hunter Labs Logo" className="mx-auto mb-6" />
           <div className="mt-6 space-x-4 py-4">
             <Button onClick={() => setShowModal(true)}>Let’s Talk</Button>
-            <Button variant="outline">See Our Work</Button>
+            <Button variant="outline"   onClick={() => window.location.href = '/work/'}>See Our Work</Button>
           </div>
         </header>
 
