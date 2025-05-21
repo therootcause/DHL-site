@@ -6,14 +6,14 @@ export default function WorkApp() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-      <div className="text-white min-h-screen font-sans bg-black/70">
+      <div className="text-white min-h-screen font-sans bg-black/50">
         <header className="text-center py-0 px-4 ">
           <img src="/dhllogo.png" width="300" height="300" alt="Dragon Hunter Labs Logo" className="mx-auto mb-6" />
         </header>
 
         <section className="bg-black/70 py-8 px-4">
-          <h2 className="text-3xl font-semibold text-center mb-12">Our Work</h2>
-          <p class="text-xl">These are projects from Dragon Hunter Labs. Not all projects are commercial - we also work on open source and experimental initiatives.</p>
+          <h2 className="text-2xl font-semibold text-center mb-12">Our Work</h2>
+          <p class="text-xl">These are projects from Dragon Hunter Labs.<br></br>Not all projects are commercial - we also work on open source and experimental initiatives.</p>
         
 </section>
 <section className="bg-black/50 py-8 px-4">
@@ -28,8 +28,8 @@ export default function WorkApp() {
             </div>
              <div class="bg-black/90 rounded-lg p-6 hover:transform hover:-translate-y-1 transition duration-300">
                     <h3 class="text-2xl font-semibold mb-4">AI Career Coaching</h3>
-                    <p class="mb-4">AI driven career guidance.</p>
-                    <p class="mb-4">langgraph agent with tools. Rapid development with streamlit and render.com</p>
+                    <p class="mb-4">AI driven career guidance platform to connect students to career paths.</p>
+                    <p class="mb-4">python langgraph agent with tools.<br></br>Rapid development with streamlit and render.com</p>
             </div>
             <div class=""></div>
           </div>
